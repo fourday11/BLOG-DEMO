@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+.jztop{
+	background:url(../imgs/mainendbg.jpg) no-repeat;
+	width:1034px;
+	height:15px;
+	margin:auto;
+	
+}
+.container{
+	width:1000px;
+	border-left: #d2d2d2 1px solid;
+	border-right: #d2d2d2 1px solid;
+	margin: 0px auto;
+	
+}
+.ContentList{
+	width: 620px;
+	overflow: hidden;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	float:left;
+}
+.ContentList h3{
+	margin:20px 0 10px 0;
+	color:#333;
+	font-size:16px;
+	font-family:"微软雅黑";
+}
+.ContentList figure{
+	float:left;
+	width:25%;
+}
+.ContentList figure img{
+	padding:4px;
+	border:#f4f2f2 1px solid;
+	width:140px;
+}
+
+.ContentList ul {
+	float: left;
+	width: 70%;
+	margin: 10px 0px 0 15px;
+	line-height: 20px;
+}
+.dateview {
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+	margin: 10px 0 0 0;
+	display: inline-block;
+	background: #f6f6f6 url(../imgs/time.jpg) 15px center no-repeat;
+	line-height: 26px;
+	height: 26px;
+	color: #838383;
+	padding-left: 25px
+}
+.dateview span {
+	margin: 0 10px;
+}
+.dateview span a {
+	color: #41607d;
+}
+a.readmore {
+	background: #333;
+	color: #fff;
+	padding: 5px 10px;
+	float: right;
+	margin: 20px 0 0 0
+}
+#r_box {
+	width: 300px;
+	margin: 20px 20px 0 0;
+	float:right;
+}
+.tit{
+	line-height: 44px;
+	color: #fff;
+	font-size: 18px;
+	height: 44px;
+	background: url(../imgs/rtitbg.png) no-repeat;
+	padding-left: 40px;
+	margin: 0 0 10px 0
+}
+/*关注我*/
+#contact ul{
+	width:100%;
+	overflow:hidden;	
+}
+#contact ul li{
+	width:60px;
+	margin:0 10px 0 5px;
+	float:left;
+}
+#contact li a {
+	color: #747F8C;
+	width: 62px;
+	text-align: center;
+	padding-top: 60px;
+	float: left;
+}
+#contact .email {
+	background: url(../imgs/gz01.png) no-repeat;
+}
+#contact .qq {
+	background: url(../imgs/gz02.png) no-repeat;
+}
+#contact .tel {
+	background: url(../imgs/gz03.png) no-repeat;
+}
+#contact .prize {
+	background: url(../imgs/gz04.png) no-repeat;
+}
+#contact li a:hover {
+	opacity: 0.6;
+}
+/*图文列表*/
+#reconment {
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+	margin: 20px 0
+}
+#reconment li {
+	overflow: hidden;
+	clear: both;
+	margin-bottom: 10px
+}
+#content li img {
+	width: 70px;
+	float: left;
+	margin-right: 15px
+}
+#content li b {
+	overflow: hidden;
+	width: 100%;
+	font-weight: normal;
+	color: #333;
+	font-size: 14px;
+	line-height: 30px
+}
+#content li span {
+	color: #999;
+	margin-right: 10px
+}
+#content p {
+	margin-top: 5px
+}
+.tulanmu {
+	background: url(../imgs/lanmbq.png) no-repeat center left;
+	padding-left: 17px
+}
+.tulanmu a {
+	color: #999;
+}
+.tulanmu a:hover {
+	color: #066
+}
+.tutime {
+	background: url(../imgs/datepng.png) no-repeat left center;
+	padding-left: 15px
+}
+.tuwen li:hover {
+	background: #f4f3f3
+}
+

@@ -1,0 +1,177 @@
+
+/* 共用css */
+
+*{
+	margin: 0;
+	padding: 0
+}
+body {
+	font: 12px "宋体", Arial, Helvetica, sans-serif;
+	color: #666666;
+	background: url(../imgs/bg.jpg) repeat
+}
+img {
+	border: 0;
+	display: block
+}
+ul, ol, li {
+	list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+a{
+	text-decoration:none;
+}
+/*默认链接颜色 */
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: #000000
+}
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+/*头部分设计*/
+
+#header {
+	width:100%;
+	background: url(../imgs/yuanshan.jpg) right bottom no-repeat;
+
+	
+}
+.headTop{
+	background:url(../imgs/topbg.jpg) repeat-x;
+	height:28px;
+	
+	
+	
+	}
+.contentTop{
+	margin:auto;
+	width:1000px;
+
+	
+	
+}
+.logo{
+	padding: 50px 0 20px 20px;
+	font-size: 26px;
+	font-family: "微软雅黑", sans-serif;
+	color: #333;
+	font-weight: bold;
+	float:left;
+}
+#search{
+	width:240px;
+	margin:50px 0 0 0;
+	float:right;
+}
+.input_text {
+	padding-left: 5px;
+	border: 1px solid #ccc;
+	width: 158px;
+	height: 26px;
+	line-height: 26px;
+	background-color: #e5e5e5;
+}
+.input_submit {
+	background-color: #333;
+	color: #FFF;
+	margin-left: 5px;
+	width: 50px;
+	border: none;
+	cursor: pointer;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 5px;
+}
+#nav{
+	position:relative;
+	clear:both;
+	margin:0 0 15px 0;
+	height: 64px;
+	background: url(../imgs/navbg.png) no-repeat;
+	font-family: "微软雅黑";
+	margin-left: 400px;
+	padding-top: 10px
+	
+}
+#nav li {
+	float: left;
+	width: 110px;
+	text-align: center;
+	position: relative;
+	line-height: 46px;
+	color:#fff;
+	font-size:15px;
+	font-weight:bold;
+	
+}
+
+#nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold
+	
+}
+#nav ul li ul li{
+	float:none;
+	position:relative;
+	background:url(../imgs/footerbg.png);
+	
+}
+#nav ul li ul li a{
+	font-size: 15px
+	}
+#nav ul li ul{
+	font-size: 15px;
+	height: 28px;
+	line-height: 28px;
+	display:none;
+}
+#nav ul li ul li a:hover{
+	background:#000000;
+}
+/*排行*/
+.rank li {
+	height: 25px;
+	line-height: 25px;
+	clear: both;
+	padding-left: 5px;
+	overflow: hidden;
+	padding-left: 15px;
+	background: url(../images/libg.jpg) no-repeat left center;
+}
+.rank {
+	margin: 10px 0
+}
+.rank li a {
+	color: #333;
+}
+.rank li:first-child a {
+	color: #f00;
+	display: block;
+}
+.ph {
+	overflow: hidden
+}
+/*首页右侧广告 300*/
+.ad {
+	width: 300px;
+	overflow: hidden;
+	margin: 30px 0
+}
+.ad img {
+	width: 300px;
+}
+#footer{
+	clear:both;
+	margin:auto;
+	text-align:center;
+}
+
